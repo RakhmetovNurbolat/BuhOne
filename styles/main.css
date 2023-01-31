@@ -11,13 +11,47 @@
   max-width: 1110px;
 }
 
+a {
+  color: #222;
+  text-decoration: none;
+}
+
 body {
   font-family: "Lato";
   font-size: 16px;
 }
 
 .header {
-  padding: 47px 0;
+  padding: 22px 0 29px;
+}
+.header__wrapper {
+  margin: 0 auto;
+  width: calc(100% - 60px);
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.header__inner__info {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+.header__inner__info__copyright {
+  display: flex;
+  column-gap: 15px;
+}
+.header__inner__nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.header__item {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,10 +4,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .wrapper{
     margin: 0 auto;
     width: calc(100% - 60px);
     max-width: $wrapper-width;
+}
+
+a{
+    color : $color-item;
+    text-decoration: none;
 }
 
 body{
